@@ -18,7 +18,7 @@ export default function Home() {
         <h2 className="font-bold text-lg lg:text-4xl">About Diki Hamdani</h2>
       </div>
 
-      <div class="sm:px-32 px-10 md:px-28 lg:px-96 py-10 text-justify">
+      <div class="sm:px-32 px-10 md:px-28 lg:px-96 py-10">
         <p className="mb-4">
           I am Diki Hamdani, a computer science’s student and also web developer
           who lives in Tasikmalaya, West Java, Indonesia. I am studying at STMIK
