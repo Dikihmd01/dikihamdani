@@ -25,7 +25,7 @@ export default function Home() {
         <p>technology through this app.</p>
       </div>
 
-      <div class="sm:px-32 px-10 md:px-28 lg:px-96 py-10 text-justify">
+      <div class="sm:px-32 px-10 md:px-28 lg:px-96 py-10 text-left">
         <div class=" w-full lg:max-w-full lg:flex mb-4">
           <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal shadow-lg hover:bg-gray-100">
             <div class="mb-8">
