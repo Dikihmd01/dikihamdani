@@ -56,7 +56,7 @@ export default function Home() {
         <div class="rounded overflow-hidden shadow-lg hover:bg-gray-100">
           <div class="px-6 py-12">
             <div class="font-bold text-xl mb-2 text-center">
-              <Link href="https://twitter.com/Dikihdn127001">
+              <Link href="https://twitter.com/IamDHamd">
                 <a target="_blank">Twitter</a>
               </Link>
             </div>
@@ -65,7 +65,11 @@ export default function Home() {
 
         <div class="rounded overflow-hidden shadow-lg hover:bg-gray-100">
           <div class="px-6 py-12">
-            <div class="font-bold text-xl mb-2 text-center">Telegram</div>
+            <div class="font-bold text-xl mb-2 text-center">
+              <Link href="https://t.me/GeekmanHere">
+                <a target="_blank">Telegram</a>
+              </Link>
+            </div>
           </div>
         </div>
 
