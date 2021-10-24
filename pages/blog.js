@@ -1,10 +1,15 @@
 import Link from "next/link";
 import Layout from "../components/layout";
+import Head from 'next/head'
 import { getSortedPostData } from "../lib/posts";
 
 export default function Blog({ allPostData }) {
   return (
     <Layout>
+      <Head>
+        <title>Diki Hamdani - Blog</title>
+      </Head>
+
       <div className="flex items-center justify-center">
         <h2 className="font-bold text-lg lg:text-4xl">Blog</h2>
       </div>
@@ -17,7 +22,7 @@ export default function Blog({ allPostData }) {
         <p>technology through this app.</p>
       </div>
 
-      <div className="sm:px-32 px-10 md:px-28 lg:px-96 py-10 text-left">
+      <div className="sm:px-32 px-10 md:px-28 lg:px-60 py-10 text-left">
         {allPostData.map(({ id, title, date }) => (
           <div className=" w-full lg:max-w-full lg:flex mb-4" key={id}>
             <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal shadow-lg hover:bg-gray-100">

@@ -1,9 +1,14 @@
 import Link from "next/link"
 import Layout from "../components/layout";
+import Head from 'next/head'
 
 export default function About() {
   return (
     <Layout>
+      <Head>
+        <title>Diki Hamdani - About</title>
+      </Head>
+
       <div className="flex items-center justify-center">
         <h2 className="font-bold text-lg lg:text-4xl">Diki Hamdani</h2>
       </div>
