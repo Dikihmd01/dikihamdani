@@ -1,24 +1,14 @@
-import Link from "next/link";
-import Image from "next/image";
-import profilePic from "../public/profil.png";
+import Link from "next/link"
+import Layout from "../components/layout";
 
-export default function Home() {
+export default function About() {
   return (
-    <>
-      <div className="flex items-center justify-center">
-        <Image
-          src={profilePic}
-          alt="Picture of the author"
-          width={190}
-          height={200}
-        />
-      </div>
-
+    <Layout>
       <div className="flex items-center justify-center">
         <h2 className="font-bold text-lg lg:text-4xl">Diki Hamdani</h2>
       </div>
 
-      <div class="sm:px-32 px-10 md:px-28 lg:px-96 py-10 text-left">
+      <div className="sm:px-32 px-10 md:px-28 lg:px-96 py-10 text-left">
         <p className="mb-4">
           Hello! I am Diki Hamdani, a computer science’s student who loves technology, mostly in web development.
           I lives in Tasikmalaya, West Java, Indonesia. I study at STMIK
@@ -30,7 +20,7 @@ export default function Home() {
         </p>
         <p className="mb-4">
           <h3 className="text-xl font-bold">What I Use?</h3>
-          <ul class="list-disc list-inside bg-rose-200 ...">
+          <ul className="list-disc list-inside bg-rose-200 ...">
             <li>HTML & CSS</li>
             {/* <li>JavaScript</li> */}
             <li>PHP</li>
@@ -51,12 +41,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-
-      <footer className="flex items-center justify-center mt-14">
-        <h2 className="font-bold text-sm lg:text-lg mb-7">
-          Code with &#10084; by Diki Hamdani &copy; 2021
-        </h2>
-      </footer>
-    </>
+    </Layout>
   );
 }
