@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Layout from "../components/layout";
 import Head from 'next/head'
-import { getSortedPostData } from "../lib/posts";
+import { getSortedPostData } from "../lib/posts"
+import Date from "../components/date";
 
 export default function Blog({ allPostData }) {
   return (
@@ -23,7 +24,7 @@ export default function Blog({ allPostData }) {
       </div>
 
       <div className="sm:px-32 px-10 md:px-28 lg:px-60 py-10 text-left">
-        {allPostData.map(({ id, title, date }) => (
+        {allPostData.map(({ id, title, date, description }) => (
           <div className=" w-full lg:max-w-full lg:flex mb-4" key={id}>
             <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal shadow-lg hover:bg-gray-100">
               <div className="mb-8">
@@ -34,13 +35,13 @@ export default function Blog({ allPostData }) {
                 </div>
                 <div className="flex items-center mb-2">
                   <div className="text-sm">
-                    <p className="text-gray-600">{date}</p>
+                    <p className="text-gray-600">
+                      <Date dateString={date} />
+                    </p>
                   </div>
                 </div>
                 <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                  exercitationem praesentium nihil.
+                  {description}
                 </p>
               </div>
             </div>
