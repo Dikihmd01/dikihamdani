@@ -9,7 +9,7 @@ export default function Home() {
       <html>
         <Head>
           <title>Diki Hamdani</title>
-          <link rel="icon" type="image/png" sizes="32x32" href="/profil.png" />>
+          <link rel="icon" type="image/png" sizes="32x32" href="/profil.png" />
         </Head>
         <body>
             <div className="flex items-center justify-center">

@@ -15,24 +15,34 @@ export default function Home() {
       </div>
 
       <div className="flex items-center justify-center">
-        <h2 className="font-bold text-lg lg:text-4xl">About Diki Hamdani</h2>
+        <h2 className="font-bold text-lg lg:text-4xl">Diki Hamdani</h2>
       </div>
 
       <div class="sm:px-32 px-10 md:px-28 lg:px-96 py-10 text-left">
         <p className="mb-4">
-          I am Diki Hamdani, a computer science’s student and also web developer
-          who lives in Tasikmalaya, West Java, Indonesia. I am studying at STMIK
+          Hello! I am Diki Hamdani, a computer science’s student who loves technology, mostly in web development.
+          I lives in Tasikmalaya, West Java, Indonesia. I study at STMIK
           Tasikmalaya since 2019.
         </p>
         <p className="mb-4">
-          I really intersted in programming and techbology, currently learning
-          more about Back-end stuffs like Python and Django and one of pouplar
-          front-end framework, Next.Js.
+          I interested in Back-end stuff, but currently I also learn one of popular React.Js Framework, <Link href="nextjs.org"><a>Next.Js</a></Link>.
+          I am kind of active student, joint Computer Club STMIK Tasikmlaya since 2019 and trusted as Lead of Software Engineer at Computer Club.
         </p>
-        <p>
-          I am kind of active student, trusted as a vice lead softwae engineer
-          at Computer Club STMIK Tasikmalaya since 2020. Also join as a member
-          of Tasik Code. Find me on Twitter, Github, and e-mail.
+        <p className="mb-4">
+          <h3 className="text-xl font-bold">What I Use?</h3>
+          <ul class="list-disc list-inside bg-rose-200 ...">
+            <li>HTML & CSS</li>
+            {/* <li>JavaScript</li> */}
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>CodeIgniter</li>
+            <li>Laravel</li>
+            <li>Python</li>
+            <li>Django</li>
+            <li>Bootstrap</li>
+            <li>Tailwind CSS</li>
+            <li>Next.Js</li>
+          </ul>
         </p>
 
         <div className="mt-12 hover:text-blue-700">
