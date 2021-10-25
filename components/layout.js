@@ -12,12 +12,12 @@ export default function Layout({ children }) {
                 <link rel="icon" type="image/png" sizes="32x32" href="/profil.png" />
             </Head>
             <body>
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center mb-2">
                     <Image
                         src={profilePic}
                         alt="Picture of the author"
-                        width={190}
-                        height={200}
+                        width={120}
+                        height={130}
                     />
                 </div>
 

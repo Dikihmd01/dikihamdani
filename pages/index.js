@@ -13,11 +13,17 @@ export default function Home() {
 
       <div className="flex items-center justify-center">
         <h2 className="font-bold text-lg lg:text-4xl">
-          Hey there! It's Diki here
+          Hey there &#128075; It's Diki here
         </h2>
       </div>
 
-      <div className="sm:px-32 px-10 md:px-28 lg:px-32 py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-2 gap-8">
+      <div className="flex items-center justify-center">
+        <h6 className="font">
+          A Student | Tech Geek
+        </h6>
+      </div>
+
+      <div className="sm:px-32 px-10 md:px-28 lg:px-96 py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-8">
         <div className="rounded overflow-hidden shadow-lg hover:bg-gray-100">
           <div className="px-6 py-12">
             <div className="font-bold text-xl mb-2 text-center">

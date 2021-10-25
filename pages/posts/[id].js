@@ -13,7 +13,7 @@ export default function Post({postData}) {
             <div className="sm:px-32 px-10 md:px-28 lg:px-60 py-10 text-left">
                 <h2 className="font-bold text-lg lg:text-4xl mb-1">{postData.title}</h2>
                 <div className="mb-2">
-                    <Date dateString={postData.date} />
+                    <Date dateString={postData.date} /> by <span className="italic">Diki Hamdani</span>
                 </div>
                 <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
 

@@ -16,11 +16,7 @@ export default function Blog({ allPostData }) {
       </div>
 
       <div className="flex items-center justify-center">
-        <p>I share everything i know about programming and</p>
-      </div>
-
-      <div className="flex items-center justify-center">
-        <p>technology through this app.</p>
+        <p className="italic">I share everything i know here, enjoy.</p>
       </div>
 
       <div className="sm:px-32 px-10 md:px-28 lg:px-60 py-10 text-left">
